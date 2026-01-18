@@ -1,0 +1,10 @@
+{
+  "name": "@vendura/webhooks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "vendura-core": "workspace:*",
+    "@vendura/mongodb": "workspace:*",
+    "@vendura/razorpay": "workspace:*"
+  }
+}

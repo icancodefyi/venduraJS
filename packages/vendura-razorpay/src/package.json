@@ -1,0 +1,9 @@
+{
+  "name": "@vendura/razorpay",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "razorpay": "^2.9.5",
+    "vendura-core": "workspace:*"
+  }
+}
