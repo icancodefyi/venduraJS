@@ -2,7 +2,7 @@ export type ID = string;
 
 export type Money = {
   amount: number;
-  currency: "INR";
+  currency: string;
 };
 
 export type CartItem = {
