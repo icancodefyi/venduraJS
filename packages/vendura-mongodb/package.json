@@ -2,8 +2,15 @@
   "name": "@vendura/mongodb",
   "version": "0.1.0",
   "private": true,
-"dependencies": {
-  "vendura-core": "file:../vendura-core"
-}
-
+  "dependencies": {
+    "vendura-core": "file:../vendura-core"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
 }

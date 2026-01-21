@@ -1,7 +1,6 @@
 {
-  "name": "vendura-core",
+  "name": "@vendura/razorpay",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -9,5 +8,8 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "vendura-core": "file:../vendura-core"
   }
 }

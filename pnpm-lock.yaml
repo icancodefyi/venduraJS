@@ -36,7 +36,25 @@ importers:
   packages/vendura-mongodb:
     dependencies:
       vendura-core:
-        specifier: workspace:*
+        specifier: file:../vendura-core
+        version: link:../vendura-core
+
+  packages/vendura-razorpay:
+    dependencies:
+      vendura-core:
+        specifier: file:../vendura-core
+        version: link:../vendura-core
+
+  packages/vendura-webhooks:
+    dependencies:
+      '@vendura/mongodb':
+        specifier: file:../vendura-mongodb
+        version: link:../vendura-mongodb
+      '@vendura/razorpay':
+        specifier: file:../vendura-razorpay
+        version: link:../vendura-razorpay
+      vendura-core:
+        specifier: file:../vendura-core
         version: link:../vendura-core
 
 packages:
